@@ -54,6 +54,8 @@ function app(data) {
     const priceGroup = getActiveFilters([elements.price])
 
     const result = joinFilters([
+      // If the group is empty, we fall back to input set of ids
+      // when no filters in a group are activated, this usually means we shouldn't apply them at all
       roomGroup.length ? joinFilters(roomGroup, union) : () => ids,
       typeGroup.length ? joinFilters(typeGroup, union) : () => ids,
       priceGroup.length ? joinFilters(priceGroup, union) : () => ids
@@ -68,11 +70,12 @@ function app(data) {
     .map(data => renderTemplate(resultTemplate, data))
     .join('')
 
-  // Rerender on change
+  // Render initially
+  elements.results.innerHTML = renderResults(completeSet)
+
+  // Re-render on change
   listen(elements.form, 'change')
     .map(() => filter(completeSet))
     .forEach(results => elements.results.innerHTML = renderResults(results))
-
-  elements.results.innerHTML = renderResults(completeSet)
 
 }

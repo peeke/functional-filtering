@@ -29,8 +29,8 @@ function app(data) {
   )
 
   // Get all active filters for a given input name
-  const getActiveFilters = (inputs, groupName) => inputs
-    .filter(input => input.name === groupName)
+  const getActiveFilters = (inputs, name) => inputs
+    .filter(input => input.name === name)
     .filter(input => input.value)
     .filter(input => input.type !== 'checkbox' || input.checked)
     .map(input => filterMap.get(input))
@@ -55,11 +55,12 @@ function app(data) {
     .map(data => renderTemplate(resultTemplate, data))
     .join('')
 
+  // Render initially
+  elements.results.innerHTML = renderResults(completeSet)
+
   // Re-render on change
   listen(elements.form, 'change')
     .map(() => filter(completeSet))
     .forEach(results => elements.results.innerHTML = renderResults(results))
-
-  elements.results.innerHTML = renderResults(completeSet)
 
 }
