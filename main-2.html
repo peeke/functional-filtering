@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Filtering</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display:900" rel="stylesheet">
+    <script src="js/main-2.js" type="module"></script>
+</head>
+<body>
+
+<section>
+    <form action="">
+
+        <h1>Filters</h1>
+
+        <fieldset>
+
+            <legend>Kamers</legend>
+
+            <div>
+                <input id="rooms-1" type="checkbox" name="aantal_slaapkamers" value="1">
+                <label for="rooms-1">1 kamer</label>
+            </div>
+
+            <div>
+                <input id="rooms-2" type="checkbox" name="aantal_slaapkamers" value="2">
+                <label for="rooms-2">2 kamers</label>
+            </div>
+
+            <div>
+                <input id="rooms-3" type="checkbox" name="aantal_slaapkamers" value="3" data-comparison="gte">
+                <label for="rooms-3">3 of meer kamers</label>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Soort</legend>
+
+            <div>
+                <input id="type-1" type="checkbox" name="soort" value="huur_sociaal">
+                <label for="type-1">Sociale huur</label>
+            </div>
+
+            <div>
+                <input id="type-2" type="checkbox" name="soort" value="huur_vrije_sector">
+                <label for="type-2">Vrije sector huur</label>
+            </div>
+
+            <div>
+                <input id="type-3" type="checkbox" name="soort" value="parkeerruimte">
+                <label for="type-3">Parkeerruimte</label>
+            </div>
+
+            <div>
+                <input id="type-4" type="checkbox" name="soort" value="koopwoning">
+                <label for="type-4">Koopwoning</label>
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend><label for="price">Minimum prijs</label></legend>
+            <input id="price" type="range" name="kosten_netto" value="0" min="0" max="1000" data-comparison="gte">
+
+        </fieldset>
+
+    </form>
+</section>
+
+<section>
+
+    <h2>Results</h2>
+
+    <template id="result">
+        <li>
+            <strong>
+                ${ woonplaats }, ${ adres }
+            </strong>
+            <div>
+                <span>${ soort }</span> | <span>Prijs: &euro;${ kosten_netto }</span> | <span>Kamers: ${ aantal_slaapkamers }</span>
+            </div>
+        </li>
+    </template>
+
+    <ul id="results"></ul>
+
+</section>
+
+</body>
+</html>

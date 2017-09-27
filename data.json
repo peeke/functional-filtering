@@ -1,0 +1,432 @@
+[
+  {
+    "id": "object-1",
+    "afbeelding": {
+      "url": "//placehold.it/320x240",
+      "tekst": "Boerenkoollaan 12, Sittard"
+    },
+    "soort": "huur_sociaal",
+    "type": "Appartement",
+    "kosten_netto": 311,
+    "kosten": {
+      "netto": 311,
+      "bruto": 325,
+      "tekst": "\u20AC 325,-",
+      "label": "totaal per maand"
+    },
+    "badge": {
+      "type": "badge-secondary-01",
+      "tekst": "Direct te huur"
+    },
+    "adres": "Boerenkoollaan 12A",
+    "woonplaats": "Sittard",
+    "wijk": "Groentewijk",
+    "aantal_slaapkamers": 4,
+    "cta": {
+      "tekst": "Bekijk woning",
+      "url": "#"
+    }
+  },
+  {
+    "id": "object-2",
+    "afbeelding": {
+      "url": "//placehold.it/320x240",
+      "tekst": "Peultjesdijk 17, Sittard"
+    },
+    "soort": "huur_sociaal",
+    "type": "Seniorenwoning",
+    "kosten_netto": 320,
+    "kosten": {
+      "netto": 320,
+      "bruto": 332,
+      "tekst": "\u20AC 332,-",
+      "label": "totaal per maand"
+    },
+    "datum_beschikbaarheid": "1 Maart beschikbaar",
+    "uiterste_reactiedatum": "Reageer voor 19 jan",
+    "adres": "Peultjesdijk 17",
+    "woonplaats": "Sittard",
+    "wijk": "Groentewijk",
+    "aantal_slaapkamers": 5,
+    "cta": {
+      "tekst": "Bekijk woning",
+      "url": "#"
+    }
+  },
+  {
+    "id": "object-3",
+    "afbeelding": {
+      "url": "//placehold.it/320x240",
+      "tekst": "Andijvie straat 1A, Sittard"
+    },
+    "soort": "huur_vrije_sector",
+    "type": "Appartement",
+    "kosten_netto": 430,
+    "kosten": {
+      "netto": 430,
+      "bruto": 452,
+      "tekst": "\u20AC 452,-",
+      "label": "totaal per maand"
+    },
+    "datum_beschikbaarheid": "1 Maart",
+    "badge": {
+      "type": "badge-primary-01",
+      "tekst": "Nog 1 dag om te reageren"
+    },
+    "adres": "Andijvie straat 1A",
+    "woonplaats": "Sittard",
+    "wijk": "Heggenwijk",
+    "aantal_slaapkamers": 2,
+    "cta": {
+      "tekst": "Bekijk woning",
+      "url": "#"
+    }
+  },
+  {
+    "id": "object-4",
+    "afbeelding": {
+      "url": "//placehold.it/320x240",
+      "tekst": "Boerenkoollaan 48, Sittard"
+    },
+    "soort": "huur_sociaal",
+    "type": "Appartement",
+    "kosten_netto": 401,
+    "kosten": {
+      "netto": 401,
+      "bruto": 453,
+      "tekst": "\u20AC 453,-",
+      "label": "totaal per maand"
+    },
+    "datum_beschikbaarheid": "15 Feb beschikbaar",
+    "uiterste_reactiedatum": "Reageer voor 1 feb",
+    "adres": "Boerenkoollaan 48",
+    "woonplaats": "Sittard",
+    "wijk": "Schoeisel",
+    "aantal_slaapkamers": 2,
+    "cta": {
+      "tekst": "Bekijk woning",
+      "url": "#"
+    }
+  },
+  {
+    "id": "object-5",
+    "afbeelding": {
+      "url": "//placehold.it/320x240",
+      "tekst": "Generaal maczeck straat 1, Heinsberg"
+    },
+    "soort": "huur_vrije_sector",
+    "type": "Appartement",
+    "kosten_netto": 455,
+    "kosten": {
+      "netto": 455,
+      "bruto": 482,
+      "tekst": "\u20AC 482,-",
+      "label": "totaal per maand"
+    },
+    "datum_beschikbaarheid": "15 Feb beschikbaar",
+    "badge": {
+      "type": "badge-primary-01",
+      "tekst": "Nog 3 dagen om te reageren"
+    },
+    "adres": "Generaal maczeck straat 34",
+    "woonplaats": "Heinsberg",
+    "wijk": "Generalenbuurt",
+    "aantal_slaapkamers": 1,
+    "cta": {
+      "tekst": "Bekijk woning",
+      "url": "#"
+    }
+  },
+  {
+    "id": "object-6",
+    "afbeelding": {
+      "url": "//placehold.it/320x240",
+      "tekst": "Zoolstraat 12, Sittard"
+    },
+    "soort": "huur_sociaal",
+    "type": "Appartement",
+    "kosten_netto": 525,
+    "kosten": {
+      "netto": 525,
+      "bruto": 584,
+      "tekst": "\u20AC 584,-",
+      "label": "totaal per maand"
+    },
+    "datum_beschikbaarheid": "1 April beschikbaar",
+    "uiterste_reactiedatum": "Reageer voor 1 feb",
+    "ribbon": {
+      "type": "ribbon",
+      "tekst": "Medische urgentie"
+    },
+    "adres": "Zoolstraat 12",
+    "woonplaats": "Sittard",
+    "wijk": "Schoeisel",
+    "aantal_slaapkamers": 2,
+    "cta": {
+      "tekst": "Bekijk woning",
+      "url": "#"
+    }
+  },
+  {
+    "id": "object-7",
+    "afbeelding": {
+      "url": "//placehold.it/320x240",
+      "tekst": "Boerenkoollaan 18, Sittard"
+    },
+    "soort": "huur_sociaal",
+    "type": "Appartement",
+    "kosten_netto": 0,
+    "kosten": {
+      "netto": 0,
+      "bruto": 0,
+      "tekst": "",
+      "label": ""
+    },
+    "datum_beschikbaarheid": "1 Maart beschikbaar",
+    "uiterste_reactiedatum": "Reageer voor 18 jan",
+    "adres": "Boerenkoollaan 18",
+    "woonplaats": "Sittard",
+    "wijk": "Groentewijk",
+    "aantal_slaapkamers": 2,
+    "cta": {
+      "tekst": "Bekijk woning",
+      "url": "#"
+    }
+  },
+  {
+    "id": "object-8",
+    "afbeelding": {
+      "url": "//placehold.it/320x240",
+      "tekst": "Peultjesdijk 18, Sittard"
+    },
+    "soort": "huur_sociaal",
+    "type": "Gezinswoning",
+    "kosten_netto": 710,
+    "kosten": {
+      "netto": 710,
+      "bruto": 763,
+      "tekst": "\u20AC 763,-",
+      "label": "totaal per maand"
+    },
+    "datum_beschikbaarheid": "7 Maart beschikbaar",
+    "uiterste_reactiedatum": "Reageer voor 13 feb",
+    "adres": "Peultjesdijk 18",
+    "woonplaats": "Sittard",
+    "wijk": "Groentewijk",
+    "aantal_slaapkamers": 3,
+    "cta": {
+      "tekst": "Bekijk woning",
+      "url": "#"
+    }
+  },
+  {
+    "id": "object-17",
+    "afbeelding": {
+      "url": "//placehold.it/320x240",
+      "tekst": "Boerenkoollaan 12, Sittard"
+    },
+    "soort": "huur_sociaal",
+    "type": "Appartement",
+    "kosten_netto": 712,
+    "kosten": {
+      "netto": 712,
+      "bruto": 730,
+      "tekst": "\u20AC 730,-",
+      "label": "totaal per maand"
+    },
+    "badge": {
+      "type": "badge-secondary-01",
+      "tekst": "Direct te huur"
+    },
+    "adres": "Boerenkoollaan 12A",
+    "woonplaats": "Sittard",
+    "wijk": "Groentewijk",
+    "aantal_slaapkamers": 3,
+    "lift": "ja",
+    "cta": {
+      "tekst": "Bekijk woning",
+      "url": "#"
+    }
+  },
+  {
+    "id": "object-18",
+    "afbeelding": {
+      "url": "//placehold.it/320x240",
+      "tekst": "Peultjesdijk 17, Sittard"
+    },
+    "soort": "huur_sociaal",
+    "type": "Seniorenwoning",
+    "kosten_netto": 720,
+    "kosten": {
+      "netto": 720,
+      "bruto": 788,
+      "tekst": "\u20AC 788,-",
+      "label": "totaal per maand"
+    },
+    "datum_beschikbaarheid": "1 Maart beschikbaar",
+    "uiterste_reactiedatum": "Reageer voor 19 jan",
+    "adres": "Peultjesdijk 17",
+    "woonplaats": "Sittard",
+    "wijk": "Groentewijk",
+    "aantal_slaapkamers": 3,
+    "cta": {
+      "tekst": "Bekijk woning",
+      "url": "#"
+    }
+  },
+  {
+    "id": "object-19",
+    "afbeelding": {
+      "url": "//placehold.it/320x240",
+      "tekst": "Andijvie straat 1, Sittard"
+    },
+    "soort": "huur_vrije_sector",
+    "type": "Appartement",
+    "kosten_netto": 0,
+    "kosten": {
+      "netto": 0,
+      "bruto": 0,
+      "tekst": "",
+      "label": ""
+    },
+    "datum_beschikbaarheid": "2016-02-02",
+    "badge": {
+      "type": "badge-primary-01",
+      "tekst": "Nog 1 dag om te reageren"
+    },
+    "adres": "Andijvie straat 1A",
+    "woonplaats": "Sittard",
+    "wijk": "Groentewijk",
+    "aantal_slaapkamers": 2,
+    "cta": {
+      "tekst": "Bekijk woning",
+      "url": "#"
+    }
+  },
+  {
+    "id": "object-20",
+    "afbeelding": {
+      "url": "//placehold.it/320x240",
+      "tekst": "Boerenkoollaan 48, Sittard"
+    },
+    "soort": "huur_sociaal",
+    "type": "Appartement",
+    "kosten_netto": 1043,
+    "kosten": {
+      "netto": 1043,
+      "bruto": 1120,
+      "tekst": "\u20AC 1120,-",
+      "label": "totaal per maand"
+    },
+    "datum_beschikbaarheid": "15 Feb beschikbaar",
+    "uiterste_reactiedatum": "Reageer voor 1 feb",
+    "adres": "Boerenkoollaan 48",
+    "woonplaats": "Sittard",
+    "wijk": "Groentewijk",
+    "aantal_slaapkamers": 6,
+    "cta": {
+      "tekst": "Bekijk woning",
+      "url": "#"
+    }
+  },
+  {
+    "id": "object-21",
+    "afbeelding": {
+      "url": "//placehold.it/320x240",
+      "tekst": "Generaal maczeck straat 50, Heinsberg"
+    },
+    "soort": "parkeerruimte",
+    "type": "Parkeerplaats",
+    "kosten_netto": 43,
+    "kosten": {
+      "netto": 43,
+      "bruto": 50,
+      "tekst": "\u20AC 50,-",
+      "label": "totaal per maand"
+    },
+    "badge": {
+      "type": "badge-secondary-01",
+      "tekst": "Direct te huur"
+    },
+    "adres": "Generaal maczeck straat 23",
+    "woonplaats": "Heinsberg",
+    "wijk": "Generalenbuurt",
+    "cta": {
+      "tekst": "Reageer nu",
+      "url": "#"
+    }
+  },
+  {
+    "id": "object-22",
+    "afbeelding": {
+      "url": "//placehold.it/320x240",
+      "tekst": "Zoolstraat 78, Sittard"
+    },
+    "soort": "parkeerruimte",
+    "type": "Garagebox",
+    "kosten_netto": 52,
+    "kosten": {
+      "netto": 52,
+      "bruto": 72,
+      "tekst": "\u20AC 72,-",
+      "label": "totaal per maand"
+    },
+    "datum_beschikbaarheid": "1 Maart beschikbaar",
+    "uiterste_reactiedatum": "Reageer voor 19 jan",
+    "adres": "Zoolstraat 78",
+    "woonplaats": "Sittard",
+    "wijk": "Schoeisel",
+    "cta": {
+      "tekst": "Reageer nu",
+      "url": "#"
+    }
+  },
+  {
+    "id": "object-15",
+    "afbeelding": {
+      "url": "//placehold.it/320x240",
+      "tekst": "Generaal maczeck straat 50, Heinsberg"
+    },
+    "soort": "koopwoning",
+    "type": "Vrijstaand",
+    "kosten_netto": 322000,
+    "kosten": {
+      "netto": 322000,
+      "bruto": 322000,
+      "tekst": "\u20AC 322.000,-",
+      "label": "kale koop"
+    },
+    "adres": "Generaal maczeck straat 23",
+    "woonplaats": "Sittard",
+    "wijk": "Schoeisel",
+    "aantal_slaapkamers": 3,
+    "cta": {
+      "tekst": "Ga naar makelaar",
+      "url": "#"
+    }
+  },
+  {
+    "id": "object-16",
+    "afbeelding": {
+      "url": "//placehold.it/320x240",
+      "tekst": "Zoolstraat 78, Sittard"
+    },
+    "soort": "koopwoning",
+    "type": "Hoekwoning",
+    "kosten_netto": 322000,
+    "kosten": {
+      "netto": 322000,
+      "bruto": 322000,
+      "tekst": "\u20AC 322.000,-",
+      "label": "vrij op naam"
+    },
+    "adres": "Zoolstraat 78",
+    "woonplaats": "Sittard",
+    "wijk": "Schoeisel",
+    "aantal_slaapkamers": 4,
+    "cta": {
+      "tekst": "Bekijk woning",
+      "url": "#"
+    }
+  }
+]
