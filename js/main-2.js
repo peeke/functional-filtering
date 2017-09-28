@@ -29,11 +29,13 @@ function app(data) {
   )
 
   // Get all active filters for a given input name
-  const getActiveFilters = (inputs, name) => inputs
-    .filter(input => input.name === name)
-    .filter(input => input.value)
-    .filter(input => input.type !== 'checkbox' || input.checked)
-    .map(input => filterMap.get(input))
+  const getActiveFilters = (inputs, name) => {
+    return inputs
+      .filter(input => input.name === name)
+      .filter(input => input.value)
+      .filter(input => input.type !== 'checkbox' || input.checked)
+      .map(input => filterMap.get(input))
+  }
 
   const filter = ids => {
 

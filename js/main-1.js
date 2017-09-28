@@ -44,10 +44,12 @@ function app(data) {
 
   const filter = ids => {
 
-    const getActiveFilters = inputs => inputs
-      .filter(input => input.value)
-      .filter(input => input.type !== 'checkbox' || input.checked)
-      .map(input => filterMap.get(input))
+    const getActiveFilters = inputs => {
+      return inputs
+        .filter(input => input.value)
+        .filter(input => input.type !== 'checkbox' || input.checked)
+        .map(input => filterMap.get(input))
+    }
 
     const roomGroup = getActiveFilters([elements.room1, elements.room2, elements.room3])
     const typeGroup = getActiveFilters([elements.type1, elements.type2, elements.type3, elements.type4])

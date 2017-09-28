@@ -1,15 +1,17 @@
-export const makeLookupTable = (data, key) =>
-  new Map(data.map(item => [item[key], item]))
+export const makeLookupTable = (data, key) => {
+  return new Map(data.map(item => [item[key], item]))
+}
 
 // Returns a filter: Set(ids) => Set(ids)
-export const makeFilter = filterFn => ids =>
-  new Set([...ids].filter(filterFn))
+export const makeFilter = filterFn => {
+  return ids => new Set([...ids].filter(filterFn))
+}
 
 // Returns a filter: Set(ids) => Set(ids)
 export const makeInputFilter = (element, lookupTable, comparison = comparisons.eq) => {
   return makeFilter(id => {
-    const dataValue = lookupTable.get(id)[element.name]
-    return comparison(dataValue, element.value)
+    const data = lookupTable.get(id)
+    return comparison(data[element.name], element.value)
   })
 }
 
