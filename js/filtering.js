@@ -16,12 +16,14 @@ export const makeInputFilter = (element, lookupTable, comparison = comparisons.e
 }
 
 // Returns a single filter: Set(ids) => Set(ids)
-export const joinFilters = (filters, relation) => ids => {
-  return filters.reduce((result, filter) => {
-    return result
-      ? relation(result, filter(ids))
-      : filter(ids)
-  }, null)
+export const joinFilters = (filters, relation) => {
+  return ids => {
+    return filters.reduce((result, filter) => {
+      return result
+        ? relation(result, filter(ids))
+        : filter(ids)
+    }, null)
+  }
 }
 
 // Comparison functions by key, to allow setting via data attribute
